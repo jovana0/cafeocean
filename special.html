@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="keywords" content="cafe, ocean, cafe ocean, drink menu, special menu">
+    <meta name="description" content="Our drink menu offers refreshing selection of beverages."/>
+    <meta name="author" content="Jovana Davidović"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital@0;1&display=swap" rel="stylesheet"/>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/min.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css"/>
+    <!--Icon-->
+    <script src="https://kit.fontawesome.com/dffc88acb1.js" crossorigin="anonymous"></script>
+     <!--Favicon-->
+     <link rel="shortcut icon" href="assets/img/mug-saucer-solid.svg" type="image/x-icon">
+     <title>Cafe Ocean</title>
+</head>
+<body>
+    <div class="jdw90">
+    <div class="row m-0 p-0">
+    <div class="col-12 col-lg-5">
+        <nav class="navbar navbar-expand-lg mt-5">
+        <div class="container-fluid flex-row flex-lg-column jdnowrap ">
+            <h1 class="ms-lg-4 p-4"><a class="navbar-brand text-capitalize px-0 px-xl-4" href="index.html"><i class="fa-solid fa-mug-saucer"></i>Cafe ocean</a></h1>
+                  <button class="navbar-toggler jdbt" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-start jdbg" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h2 class="offcanvas-title text-capitalize" id="offcanvasNavbarLabel">Caffe Ocean</h2>
+                      <button type="button" class="btn-close " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav flex-wrap">
+                                <li class="nav-item">
+                                <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="drink.html"><i class="fa-solid fa-mug-hot"></i>Drink menu</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="special.html"><i class="fa-solid fa-martini-glass-citrus"></i>Special menu</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="about.html"><i class="fa-solid fa-users"></i>About us</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="contact.html"><i class="fa-sharp fa-solid fa-comments"></i>Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                <a class="nav-link" href="author.html"><i class="fa-solid fa-user"></i>Author</a>
+                                </li>
+                            </ul>
+                        </div>
+        </div>
+        </nav>
+    </div>
+    <div class="col-12 col-lg-7">
+        <main>
+            <div class="row jdrow flex-nowrap">
+            <div class="card" style="width: 16rem;">
+                <img src="assets/img/vino.jpg" class="card-img-top jdiimg" alt="Wine">
+                <div class="card-body jdbody">
+                  <h3 class="card-title jdsh3">Wine <span>&euro;5.00</span></h3>
+                  <p class="card-text">Wine enhances social gatherings with its versatile flavors and styles. For our café's wine list, please check the button below.</p>
+                  <button type="button" class="btn jdbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    List of wines
+                  </button>
+                  <!--modal-->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title fs-5" id="exampleModalLabel">List of wine</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">Cabernet Sauvignon: A popular red wine known for its bold flavors of blackcurrant, blackberry, and cedar, often with firm tannins and a full-bodied profile.</li>
+                                <li class="list-group-item">Chardonnay: A widely loved white wine characterized by its rich and buttery texture, with flavors of tropical fruits, vanilla, and oak often present.</li>
+                                <li class="list-group-item">Merlot: A smooth and approachable red wine with flavors of ripe plums, cherries, and herbs, offering a medium-bodied and velvety palate.</li>
+                                <li class="list-group-item">Pinot Grigio: A refreshing white wine with light citrus and stone fruit notes, known for its crisp acidity and versatility as a food pairing wine.</li>
+                                <li class="list-group-item">Sauvignon Blanc: A vibrant white wine with zesty flavors of grapefruit, lime, and passionfruit, often displaying a lively acidity and herbal undertones.</li>
+                              </ol>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn jdbtn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card ms-1" style="width: 16rem;">
+                <img src="assets/img/pivo.jpg" class="card-img-top jdiimg" alt="Beer">
+                <div class="card-body jdbody">
+                  <h3 class="card-title jdsh3">Beer <span>&euro;3.00</span></h3>
+                  <p class="card-text">Beer unites with diverse flavors and styles, fostering enjoyment and connections. For our café's beer list, please check the button below.</p>
+                  <button type="button" class="btn jdbtn" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    List of beers
+                  </button>
+                  <!--modal-->
+                  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title fs-5" id="exampleModalLabel">List of beers</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">Bud Light: A popular light lager known for its crisp and refreshing taste, often enjoyed as a session beer.</li>
+                                <li class="list-group-item">Coors Light: A well-known light beer that offers a clean and smooth flavor, making it a popular choice for those seeking a light and easy-drinking option.</li>
+                                <li class="list-group-item">Guinness: An iconic Irish stout with a rich and creamy texture, featuring notes of roasted malt, chocolate, and coffee, enjoyed by fans of darker beers.</li>
+                                <li class="list-group-item">Corona Extra: A Mexican pale lager recognized for its light and refreshing character, often served with a wedge of lime for added citrusy flavor.</li>
+                                <li class="list-group-item">Heineken: A Dutch pale lager with a distinctively crisp and slightly bitter taste, widely consumed around the world and appreciated for its consistent quality.</li>
+                              </ol>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn jdbtn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+            <div class="card" style="width: 15rem;">
+                <img src="assets/img/kokteli.jpg" class="card-img-top jdiimg" alt="Cocktails">
+                <div class="card-body jdbody">
+                  <h3 class="card-title jdsh3">Cocktail <span>&euro;3.00</span></h3>
+                  <p class="card-text">Cocktails create flavorful social experiences. For our café's cocktail list, please check the button below.</p>
+                  <button type="button" class="btn jdbtn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    List of cocktails
+                  </button>
+                  <!--modal-->
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title fs-5" id="exampleModalLabel">List of cocktails</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">Mojito: A refreshing cocktail made with rum, lime juice, mint leaves, sugar, and soda water, known for its vibrant and citrusy flavor profile.</li>
+                                <li class="list-group-item">Margarita: A classic tequila-based cocktail featuring lime juice, triple sec, and a salt rim, offering a perfect balance of tangy and sweet flavors.</li>
+                                <li class="list-group-item">Martini: A sophisticated cocktail traditionally made with gin and vermouth, served either "dry" or "dirty," renowned for its elegance and timeless appeal.</li>
+                                <li class="list-group-item">Piña Colada: A tropical delight combining rum, coconut cream, and pineapple juice, delivering a creamy and fruity taste reminiscent of exotic beach destinations.</li>
+                                <li class="list-group-item">Old Fashioned: A timeless bourbon-based cocktail muddled with sugar, bitters, and a twist of citrus, showcasing a harmonious blend of flavors and a hint of nostalgia.</li>
+                              </ol>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn jdbtn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="row jdrow flex-nowrap">
+            <div class="card" style="width: 16rem;">
+                <img src="assets/img/hamburger.jpg" class="card-img-top jdiimg" alt="Burger">
+                <div class="card-body jdbody">
+                  <h3 class="card-title jdsh3">Burger <span>&euro;1.50</span></h3>
+                  <p class="card-text">Juicy beef, soft buns, and delicious toppings make burgers a satisfying delight. For our café's hamburger list, please check the button below.</p>
+                  <button type="button" class="btn jdbtn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    List of burgers
+                  </button>
+                  <!--modal-->
+                  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title fs-5" id="exampleModalLabel">List of burgers</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">Classic Cheeseburger: A timeless favorite, featuring a beef patty topped with melted cheese, lettuce, tomato, onion, pickles, and a savory sauce, all nestled between a soft bun.</li>
+                                <li class="list-group-item">BBQ Bacon Burger: A mouthwatering combination of a juicy beef patty, crispy bacon, tangy barbecue sauce, melted cheese, and caramelized onions, offering a delicious blend of smoky and savory flavors.</li>
+                                <li class="list-group-item">Mushroom Swiss Burger: A delectable choice with a beef patty topped with sautéed mushrooms, melted Swiss cheese, lettuce, and mayo, providing a savory and earthy taste.</li>
+                                <li class="list-group-item">Spicy Jalapeño Burger: A fiery option that packs a punch, featuring a beef patty topped with jalapeño peppers, spicy cheese, lettuce, tomato, and a zesty sauce, offering a tantalizing balance of heat and flavor.</li>
+                                <li class="list-group-item">Gourmet Truffle Burger: An upscale indulgence, consisting of a beef patty adorned with truffle-infused toppings such as truffle aioli, truffle cheese, caramelized onions, and arugula, delivering a luxurious and aromatic experience.</li>
+                              </ol>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn jdbtn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="card ms-1" style="width: 16rem;">
+                <img src="assets/img/sendvic.jpg" class="card-img-top jdiimg" alt="Sandwich">
+                <div class="card-body jdbody">
+                  <h3 class="card-title jdsh3">Sandwich<span>&euro;1.00</span></h3>
+                  <p class="card-text">Sandwiches layer flavors between bread for a satisfying meal on the go. For our café's beer list, please check the button below.</p>
+                  <button type="button" class="btn jdbtn" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                    List of sandwiches
+                  </button>
+                  <!--modal-->
+                  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title fs-5" id="exampleModalLabel">List of sandwiches</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">BLT (Bacon, Lettuce, and Tomato): A classic sandwich featuring crispy bacon, fresh lettuce, ripe tomatoes, and mayonnaise on toasted bread.</li>
+                                <li class="list-group-item">Club Sandwich: A triple-decker delight with layers of roasted turkey, ham, crispy bacon, lettuce, tomato, and mayonnaise, served on toasted bread.</li>
+                                <li class="list-group-item">Chicken Caesar Wrap: A popular choice consisting of grilled chicken, crisp romaine lettuce, Parmesan cheese, and Caesar dressing wrapped in a soft tortilla.</li>
+                                <li class="list-group-item">Reuben Sandwich: A beloved deli-style sandwich made with corned beef, sauerkraut, Swiss cheese, and Russian dressing, grilled between slices of rye bread.</li>
+                                <li class="list-group-item">Veggie Sandwich: A satisfying vegetarian option filled with an assortment of fresh vegetables such as cucumbers, bell peppers, lettuce, tomatoes, avocado, and a flavorful spread, served on your choice of bread.</li>
+                              </ol>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn jdbtn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+            <div class="card jdcardlast" style="width: 15rem;">
+                <img src="assets/img/rostilj.jpg" class="card-img-top jdiimglast jdiimg" alt="grilled meats">
+                <div class="card-body jdbody">
+                  <h3 class="card-title jdsh3">Grilled<span>&euro;3.00</span></h3>
+                  <p class="card-text">Grilling enhances flavors with smoky char, elevating meats, veggies, and more. For our café's grilled list, please check the button below.</p>
+                  <button type="button" class="btn jdbtn" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                    List of grilled meats
+                  </button>
+                  <!--modal-->
+                  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h4 class="modal-title fs-5" id="exampleModalLabel">List of grilled meats</h4>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ol class="list-group list-group-numbered">
+                                <li class="list-group-item">Steak: A popular choice for grilling, steak offers a range of cuts such as ribeye, sirloin, and filet mignon, known for their juicy texture and rich flavor.</li>
+                                <li class="list-group-item">Chicken Breast: Grilled chicken breast is a versatile and lean option, often marinated or seasoned with various spices to add flavor and tenderness.</li>
+                                <li class="list-group-item">Burgers: Ground beef patties seasoned with spices and grilled to perfection, burgers are a classic and widely enjoyed grilled meat option.</li>
+                                <li class="list-group-item">Pork Ribs: Whether it's baby back ribs or spare ribs, grilled pork ribs are a barbecue favorite, typically marinated or coated in a savory sauce for added flavor.</li>
+                                <li class="list-group-item">Sausages: Grilled sausages, such as bratwurst or Italian sausage, are popular at barbecues and offer a variety of flavors and seasonings to suit different tastes.</li>
+                              </ol>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn jdbtn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    </div>
+    <footer class="jddmt">
+        <section class="ms-5"id="social">
+            <article class="soci">
+                <a href="https://www.facebook.com/jovana.davidovic"><i class="fa-brands fa-facebook-f"></i></a>
+            </article>
+            <article class="soci">
+                <a href="https://www.instagram.com/j.davidovic03_"><i class="fa-brands fa-instagram"></i></a>
+            </article>
+            <article class="soci">
+                <a href="assets/css/style.css"><i class="fa-sharp fa-solid fa-file-code"></i></a>
+            </article>
+            <article class="soci">
+                <a href="xml/sitemap.xml"><i class="fa-sharp fa-solid fa-sitemap"></i></a>
+            </article>
+        </section>
+        <section id="right">
+            <p>Copyright &copy; 2023 Jovana Davidović, All right reserved.</p>
+        </section>
+    </footer>
+
+<!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,467 @@
+@media screen and (max-width:1025px){
+    h1{
+        width:95% !important;
+       margin-right: 20px !important;
+    }
+    .card .row{
+        align-items: center !important;
+    }
+    .jdimg{
+        margin-left: 5px;
+        padding-top: 30px !important;
+    }
+    .ms-sm-5{
+        margin-left: 25px !important;
+    }
+    #myTab{
+       flex-wrap: nowrap !important;
+    }
+    .jdrow{
+        flex-direction: column !important;
+    }
+    .jdtim img{
+        width: 180px;
+        height: 180px;
+        margin-top: 120px;
+        margin-left: 0px;
+    }
+    .jdl p{
+        margin-left: 10px;
+        margin-bottom: 20px !important;
+    }
+    .jdamt{
+        width: 35%;
+    }
+    .jdmain{
+        margin-left: 10px;
+    }
+    .jdaumt{
+        width: 540px;
+        margin-left: 45%;
+        text-align: center;
+        margin-top: -280px;
+    }
+    .jdaumt #social{
+        justify-content: center;
+    }
+    .jdkafa img{
+        width: 180px;
+        height: 180px;
+        margin-top: 80px;
+    }
+    .jdw60{
+        width: 60% !important;
+        margin-left: 10px;
+    }
+    .jdsh3{
+        margin-top: 0px !important;
+        width: 350px !important;
+    }
+    .jdiimg{
+        width: 180px;
+        height: 180px !important;
+        margin-bottom: 5px;
+    }
+    .card{
+        flex-direction: row !important;
+        width: 100% !important;
+        align-items: center !important;
+        margin-left: 0px !important;
+    }
+    .card .card-text{
+        margin-bottom: 5px !important;
+    }
+    .card .jdbody{
+        padding: 0px !important;
+        margin-left: 5px !important;
+        margin-bottom: 20px !important;
+    }
+    footer{
+        width: 33%;
+        margin-left: 60px;
+    }
+    .jddmt{
+        width: 35%;
+        margin-left: 60px;
+    }
+    .jdcmt{
+        width: 55.7%;
+        margin-left: 42.9%;
+        margin-top: -82px;
+    }
+    .jdcmt #social{
+        justify-content: center;
+    }
+    .jdcmt #right{
+        padding-left: 35px;
+    }
+}
+@media screen and (max-width:992px){
+    h1 a,h1 a i{
+        font-size: 35px !important;
+    }
+    h1{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        width: 100% !important;
+    }
+    .p-4{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .jdtim img{
+        width: 250px;
+        height: 250px;
+        margin-left: 10px;
+        margin-top: 60px;
+    }
+    .jdkafa img{
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    nav{
+        width: 100% !important;
+    }
+    h2{
+        color:#014a51ff;
+        font-size: 20px !important;
+    }
+    .card .jdbody{
+        margin-bottom: 30px !important;
+    }
+    .jdiimg{
+        margin-bottom: 10px !important;
+    }
+    .jdiimglast{
+        margin-bottom: 0px !important;
+    }
+    .card .card-text{
+        margin-bottom: 15px !important;
+    }
+    .jdnowrap{
+        flex-wrap: nowrap !important;
+        width: 100% !important;
+        background-color: #f1f5f5ff;
+    }
+    .jdul{
+        justify-content: center;
+    }
+    .jdbt{
+        padding: 0px !important;
+        height: 100%;
+        margin-right: 20px !important;
+    }
+    #myTab{
+        justify-content: space-around !important;
+    }
+    .jdimg{
+        margin-left: 40px;
+    }
+    .jdbg{
+        background-color: rgba(188, 174, 155, 0.5);
+    }
+    .card .jdsh3{
+        width: 700px !important;
+    }
+    .jdmain{
+        margin-left: 190px;
+    }
+    footer{
+        width: 92.5%;
+        margin-left: 36px;
+        text-align: center;
+    }
+    .jdamt,.jdcmt,.jdaumt{
+        margin-top: 20px;
+    }
+    .jddmt,.jdamt,.jdcmt,.jdaumt{
+        width: 97% !important;
+        margin-left: 14px;
+        text-align: center;
+    }
+    .jdmt,.jddmt{
+        margin-top: 10px;
+    }
+    #social{
+        
+        justify-content: center;
+    }
+}
+@media screen and (max-width:769px){
+    h1 a i{
+        padding-left: 0px;
+    }
+    h1 a,h1 a i{
+        font-size: 30px !important;
+    }
+    .card .jdsh3{
+        width: 500px !important;
+    }
+    .card .jdbody{
+        margin-bottom: 25px !important;
+    }
+    .jdcardlast{
+        height: 182px !important;
+        margin-top: 10px !important;
+    }
+    .jdtim img{
+        width: 200px;
+        height: 200px;
+        margin-top: 80px;
+    }
+    .jdimg{
+        margin-left: 30px;
+    }
+    .jdmain{
+        margin-left: 80px;
+    }
+    footer{
+        margin-left: 31px;
+        width: 92%;
+    }
+    .jdcmt,.jdaumt{
+        width: 96.5% !important;
+    }
+    #right{
+        padding-left: 0px !important;
+    }
+}
+@media screen and (max-width:601px){
+    h3,h4,#myTab .nav-link{
+        font-size: 20px !important;
+    }
+    p{
+        font-size: 18px;
+    }
+    .card .jdsh3{
+        width: 330px !important;
+    }
+    .card .card-text{
+        margin-bottom: 0px !important;
+    }
+    .jdslider i{
+        font-size: 30px;
+    }
+    .jdw60 p{
+        margin-bottom: 20px;
+    }
+    .jdtim img{width: 180px;height: 180px;}
+    .jdkafa img{
+        width: 150px;
+        height: 150px;
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+    .jdmain{
+        width: 300px !important;
+        margin-left: 130px;
+    }
+    .jdmain .card{
+        width: 300px !important;
+        height: inherit !important;
+    }
+    .jdmain .card .jdmoja{
+        width: 300px;
+    }
+    .jdul{
+        flex-direction: column !important;
+    }
+    .jdlist{
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .jdimg{
+        margin-left: 10px;
+    }
+    footer{
+        width: 91%;
+        margin-left: 28px;
+    }
+    .jddmt,.jdamt,.jdcmt,.jdaumt{
+        width: 95% !important;
+    }
+}
+@media screen and (max-width:481px){
+    h1 a,h1 a i{
+        font-size: 25px !important;
+    }
+    h2{
+        font-size: 18px !important;
+    }
+    li a, li a i{
+        font-size: 18px !important;
+    }
+    img{
+        width: 150px;
+        margin-left: 32%;
+    }
+    .card h3{
+        text-align: center;
+    }
+    .card .jdsh3{
+        margin-top: 15px !important;
+        width: 400px !important;
+    }
+    .card .jdcardlast{
+        margin-bottom: 0px !important;
+    }
+    .card .card-text{
+        margin-bottom: 15px !important;
+    }
+    .card .jdbody:last-child{
+        margin-bottom: 0px !important;
+    }
+    .jdflex{
+        display: flex !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+    }
+    #myTab{
+        flex-direction: column;
+        align-items: center;
+    }
+    #myTab li{
+        margin-top: 0px !important;
+        font-size: 16px !important;;
+    }
+    .jdimg,.jdiimg{
+        display: none;
+    }
+    h3,#myTab .nav-link{
+        font-size: 18px !important;
+    }
+    p{
+        font-size: 16px;
+    }
+    .jdspan,.jdlist{
+        font-size: 14px !important;
+    }
+    .jdcolumn{
+        flex-direction: column !important;
+        align-items: center;
+    }
+    .jdtim img,.jdkafa img{
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    .jdw60 p{
+        margin-bottom: 0px !important;
+    }
+    .jdkafa img{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .jdw60{
+        width: 95% !important;
+    }
+    .jdmain{
+        width: 200px !important;
+        margin-left: 120px;
+    }
+    .jdmain .card{
+        width: 200px !important;
+    }
+    .jdmain .card .jdmoja{
+        margin-left: 0px !important;
+    }
+    footer{
+        width: 90%;
+        margin-left: 25px;
+    }
+    .jddmt,.jdamt,.jdcmt,.jdaumt{
+        width: 94% !important;
+    }
+    #social i{
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width:426px){
+    .card .jdsh3{
+        width: 90% !important;
+    }
+    .jdtim img{
+        margin-left: 25%;
+    }
+    .jdmain{
+        margin-left: 90px;
+    }
+    footer{
+        width: 89% ;
+        margin-left: 23px;
+    }
+    .jdcmt,.jdaumt{
+        width: 93.5% !important;
+    }
+}
+@media screen and (max-width:414px){
+    h1 a,h1 a i{
+        font-size: 20px !important;
+    }
+    .p-4{
+        padding-top: 12px !important;
+        padding-bottom: 8px !important;
+    }
+    .offcanvas.offcanvas-start{
+        width: 300px !important;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    img{
+        margin-left: 29%;
+    }
+    h2, li a, li a i,h3,#social i{
+        font-size: 16px !important;
+    }
+}
+@media screen and (max-width:376px){
+    img{
+        margin-left: 27%;
+    }
+    .jdtim img{
+        margin-left: 22%;
+    }
+    .jdkafa img{
+        margin-left: 28%;
+    }
+    .jdlist i{
+        padding-left: 0px !important;
+    }
+    .jdspan,.jdlist{
+        font-size: 12px !important;
+    }
+    .jdmain{
+        margin-left: 70px;
+    }
+    footer{
+        margin-left: 21px;
+    }
+    .jddmt,.jdamt,.jdcmt,.jdaumt{
+        width: 93% !important;
+    }
+}
+@media screen and (max-width:325px){
+    img{
+        margin-left: 25%;
+    }
+    .jdtim img{
+        margin-left:18%;
+    }
+    .jdkafa img{
+        margin-left: 22%;
+    }
+    .jdmain{
+        margin-left: 40px;
+    }
+    .jddmt,.jdamt,.jdcmt,.jdaumt{
+        width: 91.5% !important;
+    }
+    footer{
+        margin-left: 18px;
+    }
+    #social i{
+        font-size: 20px;
+    }
+}
